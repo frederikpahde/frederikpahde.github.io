@@ -1,0 +1,21 @@
+main:
+
+  - title: "From Hope to Safety: Unlearning Biases of Deep Models via Gradient Penalization in Latent Space"
+    authors: Maximilian Dreyer*, <strong>Frederik Pahde*</strong>, Christopher J. Anders, Wojciech Samek, Sebastian Lapuschkin (*equal contribution)
+    conference_short: AAAI
+    conference: The 38th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2308.09437.pdf
+    code: https://github.com/frederikpahde/rrclarc
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_example_2.png
+    notes: Oral Presentation
+
+  - title: "Reveal to Revise: An Explainable AI Life Cycle for Iterative Bias Correction of Deep Models"
+    authors: <strong>Frederik Pahde*</strong>, Maximilian Dreyer*, Wojciech Samek, Sebastian Lapuschkin (*equal contribution)
+    conference_short: MICCAI
+    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+    pdf: https://arxiv.org/pdf/2303.12641.pdf
+    code: https://github.com/maxdreyer/reveal2revise
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_example_2.png
+    notes: Early Accept
