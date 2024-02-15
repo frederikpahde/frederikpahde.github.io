@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-in the eXplainable AI (XAI) group at the Fraunhofer Heinrich-Hertz Institute in Berlin, Germany. Under the guidance of Sebastian Lapuschkin and Prof. Wojciech Samek, my research focuses on integrating explainability methods into the AI development life cycle, particularly in the field of medical applications such as AI-based Melanoma detection.
+I am a PhD student in the eXplainable AI (XAI) group at the Fraunhofer Heinrich-Hertz Institute in Berlin, Germany. Under the guidance of Sebastian Lapuschkin and Prof. Wojciech Samek, my research focuses on integrating explainability methods into the AI development life cycle, particularly in the field of medical applications such as AI-based Melanoma detection.
 Prior to joining Fraunhofer, I had the opportunity to work as an Applied Machine Learning Scientist at Amazon in Edinburgh, Scotland (2019-2021) and as a Research Associate in the machine learning research team at SAP SE in Berlin, Germany (2017-2019).
 If you have any questions or are interested in collaborating on research projects, please feel free to reach out to me. I look forward to connecting with you!
 
