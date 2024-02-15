@@ -1,6 +1,6 @@
 main:
 
-  - title: "From Hope to Safety: Unlearning Biases of Deep Models via Gradient Penalization in Latent Space"
+  - title: "Navigating Neural Space: Revisiting Concept Activation Vectors to Overcome Directional Divergence"
     authors: <strong>Frederik Pahde</strong>, Maximilian Dreyer, Leander Weber, Moritz Weckbecker, Christopher J. Anders, Thomas Wiegand, Wojciech Samek, Sebastian Lapuschkin
     conference_short: arXiv
     conference: arXiv preprint arXiv:2202.03482 (2024).
