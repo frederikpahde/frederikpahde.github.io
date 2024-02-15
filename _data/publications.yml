@@ -1,13 +1,22 @@
 main:
 
   - title: "From Hope to Safety: Unlearning Biases of Deep Models via Gradient Penalization in Latent Space"
+    authors: <strong>Frederik Pahde</strong>, Maximilian Dreyer, Leander Weber, Moritz Weckbecker, Christopher J. Anders, Thomas Wiegand, Wojciech Samek, Sebastian Lapuschkin
+    conference_short: arXiv
+    conference: arXiv preprint arXiv:2202.03482 (2024).
+    pdf: https://arxiv.org/pdf/2202.03482.pdf
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_signal_cav.png
+    notes: Preprint
+    
+  - title: "From Hope to Safety: Unlearning Biases of Deep Models via Gradient Penalization in Latent Space"
     authors: Maximilian Dreyer*, <strong>Frederik Pahde*</strong>, Christopher J. Anders, Wojciech Samek, Sebastian Lapuschkin (*equal contribution)
     conference_short: AAAI
     conference: The 38th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2308.09437.pdf
     code: https://github.com/frederikpahde/rrclarc
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/RRClarcLinkedIn_reduced.png
     notes: Oral Presentation
 
   - title: "Reveal to Revise: An Explainable AI Life Cycle for Iterative Bias Correction of Deep Models"
@@ -17,5 +26,29 @@ main:
     pdf: https://arxiv.org/pdf/2303.12641.pdf
     code: https://github.com/maxdreyer/reveal2revise
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/teaser_r2r.png
     notes: Early Accept
+
+  - title: "Optimizing Explanations by Network Canonization and Hyperparameter Search"
+    authors: <strong>Frederik Pahde</strong>, Galip Ümit Yolcu, Alexander Binder, Wojciech Samek, Sebastian Lapuschkin
+    conference_short: CVPRW
+    conference: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong> Workshops, 2023.
+    pdf: https://openaccess.thecvf.com/content/CVPR2023W/SAIAD/papers/Pahde_Optimizing_Explanations_by_Network_Canonization_and_Hyperparameter_Search_CVPRW_2023_paper.pdf
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_canonization.png
+
+  - title: "Multimodal Prototypical Networks for Few-shot Learning"
+    authors: <strong>Frederik Pahde</strong>, Mihai Puscas, Tassilo Klein, Moin Nabi
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2021.
+    pdf: https://openaccess.thecvf.com/content/WACV2021/papers/Pahde_Multimodal_Prototypical_Networks_for_Few-Shot_Learning_WACV_2021_paper.pdf
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_multimodal.png
+
+  - title: "Self Paced Adversarial Training for Multimodal Few-shot Learning"
+    authors: <strong>Frederik Pahde</strong>, Oleksiy Ostapenko, Patrick Jähnichen, Tassilo Klein, Moin Nabi
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2019.
+    pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8658763
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_selfpaced.png
