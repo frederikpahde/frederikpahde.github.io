@@ -283,6 +283,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-sitemap
   minima (~> 2.0)
   webrick (~> 1.8)
 
