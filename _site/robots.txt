@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://frederikpahde.github.io/sitemap.xml
