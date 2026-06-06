@@ -1,30 +1,37 @@
 main:
+  - title: "Interpretability-Driven Model Debugging with the Reveal2Revise Life Cycle"
+    authors: <strong>Frederik Pahde</strong>
+    conference_short: Dissertation
+    conference: Dissertation, 2025
+    pdf: https://depositonce.tu-berlin.de/bitstreams/55361f93-61f4-4acc-bf2a-1d29b941ee5a/download
+    image: ./assets/img/logo_tu.png
+    notes: summa cum laude
+
   - title: "Post-Hoc Concept Disentanglement: From Correlated to Isolated Concept Representations"
     authors: Eren Erogullari, Thomas Wiegand, Sebastian Lapuschkin, Wojciech Samek, <strong>Frederik Pahde</strong>
     conference_short: XAI
-    conference: arXiv preprint arXiv:2503.05522 (2025).
+    conference: World Conference on Explainable Artificial Intelligence, 2025
     pdf: https://arxiv.org/pdf/2503.05522.pdf
     code: https://github.com/erenerogullari/cav-disentanglement
     image: ./assets/img/teaser_disentanglement.png
-    notes: Accepted at XAI World Conference 2025
 
-  - title: "Ensuring Medical AI Safety: Explainable AI-Driven Detection and Mitigation of Spurious Model Behavior and Associated Data"
+  - title: "Ensuring Medical AI Safety: Interpretability-Driven Detection and Mitigation of Spurious Model Behavior and Associated Data"
     authors: <strong>Frederik Pahde</strong>, Thomas Wiegand, Sebastian Lapuschkin, Wojciech Samek
-    conference_short: arXiv
-    conference: arXiv preprint arXiv:2501.13818 (2025).
-    pdf: https://arxiv.org/pdf/2501.13818.pdf
+    conference_short: ML
+    conference: Machine Learning 114.9 (2025).
+    pdf: https://link.springer.com/article/10.1007/s10994-025-06834-w
+    code: https://github.com/frederikpahde/medical-ai-safety
     image: ./assets/img/teaser_r2r_journal.png
     # notes: Accepted at ICLR2025
   
   - title: "Navigating Neural Space: Revisiting Concept Activation Vectors to Overcome Directional Divergence"
     authors: <strong>Frederik Pahde</strong>, Maximilian Dreyer, Leander Weber, Moritz Weckbecker, Christopher J. Anders, Thomas Wiegand, Wojciech Samek, Sebastian Lapuschkin
     conference_short: ICLR
-    conference: arXiv preprint arXiv:2202.03482 (2024).
-    pdf: https://arxiv.org/pdf/2202.03482.pdf
+    conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
+    pdf: https://proceedings.iclr.cc/paper_files/paper/2025/file/852870d56e20a22fcd52ea14523fb820-Paper-Conference.pdf
     code: https://github.com/frederikpahde/pattern-cav
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/teaser_signal_cav.png
-    notes: Accepted at ICLR2025
     
   - title: "From Hope to Safety: Unlearning Biases of Deep Models via Gradient Penalization in Latent Space"
     authors: Maximilian Dreyer*, <strong>Frederik Pahde*</strong>, Christopher J. Anders, Wojciech Samek, Sebastian Lapuschkin (*equal contribution)

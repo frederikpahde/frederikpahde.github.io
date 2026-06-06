@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://frederikpahde.github.io/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://frederikpahde.github.io/assets/files/cv_pahde.pdf</loc>
-<lastmod>2024-02-14T18:42:03+01:00</lastmod>
+<loc>http://localhost:4000/assets/files/cv_pahde.pdf</loc>
+<lastmod>2026-06-06T15:55:57+08:00</lastmod>
 </url>
 <url>
-<loc>https://frederikpahde.github.io/assets/files/curriculum_vitae.pdf</loc>
-<lastmod>2025-03-26T13:49:00+01:00</lastmod>
+<loc>http://localhost:4000/assets/files/curriculum_vitae.pdf</loc>
+<lastmod>2026-06-06T19:19:45+08:00</lastmod>
 </url>
 </urlset>

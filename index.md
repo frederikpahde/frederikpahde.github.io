@@ -5,9 +5,9 @@ layout: homepage
 ## About Me
 
 <div style="text-align: justify">
-I am a PhD student in the eXplainable AI (XAI) group at the Fraunhofer Heinrich-Hertz Institute in Berlin, Germany. Under the supervision of Sebastian Lapuschkin and Prof. Wojciech Samek, my research focuses on integrating explainability methods into the AI development life cycle for the detection and mitigation of spurious model behavior, particularly in the field of medical applications such as AI-based Melanoma detection.
-Prior to joining Fraunhofer, I had the opportunity to work as an Applied Machine Learning Scientist at Amazon in Edinburgh, Scotland (2019-2021) and as a Research Associate in the machine learning research team at SAP SE in Berlin, Germany (2017-2019).
-If you have any questions or are interested in collaborating on research projects, please feel free to reach out to me. I look forward to connecting with you!
+I am a postdoctoral researcher in the eXplainable AI (XAI) group at the Fraunhofer Heinrich-Hertz Institute in Berlin, Germany, led by Dr. Sebastian Lapuschkin and Prof. Wojciech Samek. I recently completed my PhD (Dr. rer. nat., summa cum laude) at TU Berlin, where my dissertation focused on interpretability-driven model debugging within the Reveal2Revise life cycle. My research centers on integrating explainability methods into the AI development life cycle to detect and mitigate spurious model behavior, particularly in safety-critical medical applications such as AI-based melanoma detection.
+Prior to joining Fraunhofer, I worked as an Applied Machine Learning Scientist at Amazon in Edinburgh (2019–2021) and as a Research Associate at SAP AI Research in Berlin (2017–2019).
+If you are interested in collaborating or have questions, feel free to reach out!
 </div>
 
 
