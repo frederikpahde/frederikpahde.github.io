@@ -1,479 +1,441 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" data-theme="light">
   <head>
     <title>Dr. Frederik Pahde | Fraunhofer Heinrich Hertz Institute Explainable AI Group</title>
     <meta name="google-site-verification" content="A9PyHphqCrz2ViktlbQKbmn7WlzomiK8C3INpxlPwVU" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Frederik Pahde">
-    
-    <meta name="keywords" content="XAI explainable AI Frederik Pahde">
-    
-    
+    <meta name="description" content="Frederik Pahde is a postdoctoral researcher in Explainable AI (XAI) at the Fraunhofer Heinrich-Hertz Institute in Berlin, working on interpretability-driven model debugging, spurious correlation detection, and trustworthy AI for safety-critical and medical applications.">
+    <meta name="keywords" content="XAI explainable AI Frederik Pahde model debugging spurious correlations trustworthy AI medical AI safety">
     <link rel="canonical" href="https://frederikpahde.github.io"/>
-    
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dr. Frederik Pahde">
+    <meta property="og:description" content="Frederik Pahde is a postdoctoral researcher in Explainable AI (XAI) at the Fraunhofer Heinrich-Hertz Institute in Berlin, working on interpretability-driven model debugging, spurious correlation detection, and trustworthy AI for safety-critical and medical applications.">
+    <meta property="og:image" content="./assets/img/pahde.jpg">
+    <meta name="theme-color" content="#0d9488">
 
     <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/img/favicon-32x32.png" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon-32x32.png" type="image/png" />
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
 
-    
-    <link rel="stylesheet" href="./assets/css/font.css">
-    
-    
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        
-        
-        <a class="image avatar"><img src="./assets/img/pahde.jpg" alt="avatar" /></a>
-        
+    <link rel="stylesheet" href="./assets/css/modern.css">
 
-        <h1>Dr. Frederik Pahde</h1>
-        
-<p style="font-size:0.85rem; color:#888; margin: -12px 0 12px; font-weight:400;">XAI · Model Debugging · Medical AI Safety</p>
-
-        
-        <position style="font-size:1.10rem;">Postdoctoral Researcher</position>
-        <br>
-        
-        
-        <a href="" rel="noopener"><autocolor>Fraunhofer Heinrich Hertz Institute Explainable AI Group</autocolor></a>
-        <br>
-        
-        
-        <email>frederikpahde (at) gmail.com</email>
-        
-
-        <br>
-        <br>
-        <div class="social-icons">
-        
-        <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?user=wCr3JzIAAAAJ&hl=de">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
-        
-
-        
-        <a style="margin: 0 5px 0 0" href="assets/files/cv_pahde.pdf">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
-        
-
-        
-        <a style="margin: 0 5px 0 0" href="https://github.com/frederikpahde">
-          <i class="fab fa-github"></i>
-        </a>
-        
-
-        
-        <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/frederik-pahde-176277a7/">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        
-
-        
-        </div>
-        <br>
-
-      </header>
-      <section>
-
-      <h2 id="about-me">About Me</h2>
-
-<div style="text-align: justify">
-I am a postdoctoral researcher in the eXplainable AI (XAI) group at the Fraunhofer Heinrich-Hertz Institute in Berlin, Germany, led by Dr. Sebastian Lapuschkin and Prof. Wojciech Samek. My research focuses on integrating explainability methods into the AI development life cycle to detect and mitigate spurious model behavior, with the goal of building reliable and trustworthy AI systems for safety-critical applications. I completed my PhD (Dr. rer. nat., summa cum laude) at TU Berlin, with a dissertation on interpretability-driven model debugging within the Reveal2Revise life cycle.
-Prior to joining Fraunhofer, I worked as an Applied Machine Learning Scientist at Amazon in Edinburgh (2019–2021) and as a Research Associate at SAP AI Research in Berlin (2017–2019).
-If you are interested in collaborating or have questions, feel free to reach out!
-</div>
-
-<h2 id="research-interests">Research Interests</h2>
-
-<ul>
-  <li><strong>XAI Life Cycle:</strong> Integrating explainability methods into the AI development cycle for systematic model validation, debugging, and improvement</li>
-  <li><strong>Shortcut Detection &amp; Annotation:</strong> Identifying spurious model behavior and automating bias annotation using interpretability tools</li>
-  <li><strong>Model Correction:</strong> Annotation-efficient unlearning of model shortcuts and spurious correlations in deep neural networks</li>
-  <li><strong>Concept-based Explainability:</strong> Precise modeling of human-interpretable concepts in neural network latent spaces</li>
-  <li><strong>Medical AI Safety:</strong> Applying XAI to build reliable and trustworthy AI for safety-critical medical applications</li>
-</ul>
-
-<!-- ## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
-
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
-
-<div class="publications">
-<ol class="bibliography">
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-     
-    <img src="./assets/img/logo_tu.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-    
-     
-    <abbr class="badge">Dissertation</abbr>
-    
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://depositonce.tu-berlin.de/bitstreams/55361f93-61f4-4acc-bf2a-1d29b941ee5a/download">Interpretability-Driven Model Debugging with the Reveal2Revise Life Cycle</a></div>
-      <div class="author"><strong>Frederik Pahde</strong></div>
-      <div class="periodical"><em>Dissertation, 2025</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://depositonce.tu-berlin.de/bitstreams/55361f93-61f4-4acc-bf2a-1d29b941ee5a/download" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-      
-      
-      
-       
-      <strong> <i style="color:#e74d3c">summa cum laude</i></strong>
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-     
-    <img src="./assets/img/teaser_disentanglement.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-    
-     
-    <abbr class="badge">XAI</abbr>
-    
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://arxiv.org/pdf/2503.05522.pdf">Post-Hoc Concept Disentanglement: From Correlated to Isolated Concept Representations</a></div>
-      <div class="author">Eren Erogullari, Thomas Wiegand, Sebastian Lapuschkin, Wojciech Samek, <strong>Frederik Pahde</strong></div>
-      <div class="periodical"><em>World Conference on Explainable Artificial Intelligence, 2025</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://arxiv.org/pdf/2503.05522.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/erenerogullari/cav-disentanglement" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-     
-    <img src="./assets/img/teaser_r2r_journal.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-    
-     
-    <abbr class="badge">ML</abbr>
-    
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://link.springer.com/article/10.1007/s10994-025-06834-w">Ensuring Medical AI Safety: Interpretability-Driven Detection and Mitigation of Spurious Model Behavior and Associated Data</a></div>
-      <div class="author"><strong>Frederik Pahde</strong>, Thomas Wiegand, Sebastian Lapuschkin, Wojciech Samek</div>
-      <div class="periodical"><em>Machine Learning 114.9 (2025).</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://link.springer.com/article/10.1007/s10994-025-06834-w" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/frederikpahde/medical-ai-safety" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-     
-    <img src="./assets/img/teaser_signal_cav.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-    
-     
-    <abbr class="badge">ICLR</abbr>
-    
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/852870d56e20a22fcd52ea14523fb820-Paper-Conference.pdf">Navigating Neural Space: Revisiting Concept Activation Vectors to Overcome Directional Divergence</a></div>
-      <div class="author"><strong>Frederik Pahde</strong>, Maximilian Dreyer, Leander Weber, Moritz Weckbecker, Christopher J. Anders, Thomas Wiegand, Wojciech Samek, Sebastian Lapuschkin</div>
-      <div class="periodical"><em>International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/852870d56e20a22fcd52ea14523fb820-Paper-Conference.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/frederikpahde/pattern-cav" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-     
-    <img src="./assets/img/RRClarcLinkedIn_reduced.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-    
-     
-    <abbr class="badge">AAAI</abbr>
-    
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://arxiv.org/pdf/2308.09437.pdf">From Hope to Safety: Unlearning Biases of Deep Models via Gradient Penalization in Latent Space</a></div>
-      <div class="author">Maximilian Dreyer*, <strong>Frederik Pahde*</strong>, Christopher J. Anders, Wojciech Samek, Sebastian Lapuschkin (*equal contribution)</div>
-      <div class="periodical"><em>The 38th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://arxiv.org/pdf/2308.09437.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/frederikpahde/rrclarc" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-       
-      <strong> <i style="color:#e74d3c">Oral Presentation</i></strong>
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-     
-    <img src="./assets/img/teaser_r2r.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-    
-     
-    <abbr class="badge">MICCAI</abbr>
-    
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://arxiv.org/pdf/2303.12641.pdf">Reveal to Revise: An Explainable AI Life Cycle for Iterative Bias Correction of Deep Models</a></div>
-      <div class="author"><strong>Frederik Pahde*</strong>, Maximilian Dreyer*, Wojciech Samek, Sebastian Lapuschkin (*equal contribution)</div>
-      <div class="periodical"><em>International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://arxiv.org/pdf/2303.12641.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/maxdreyer/reveal2revise" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-       
-      <strong> <i style="color:#e74d3c">Early Accept</i></strong>
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-     
-    <img src="./assets/img/teaser_canonization.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-    
-     
-    <abbr class="badge">CVPRW</abbr>
-    
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2023W/SAIAD/papers/Pahde_Optimizing_Explanations_by_Network_Canonization_and_Hyperparameter_Search_CVPRW_2023_paper.pdf">Optimizing Explanations by Network Canonization and Hyperparameter Search</a></div>
-      <div class="author"><strong>Frederik Pahde</strong>, Galip Ümit Yolcu, Alexander Binder, Wojciech Samek, Sebastian Lapuschkin</div>
-      <div class="periodical"><em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong> Workshops, 2023.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://openaccess.thecvf.com/content/CVPR2023W/SAIAD/papers/Pahde_Optimizing_Explanations_by_Network_Canonization_and_Hyperparameter_Search_CVPRW_2023_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-     
-    <img src="./assets/img/teaser_multimodal.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-    
-     
-    <abbr class="badge">WACV</abbr>
-    
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://openaccess.thecvf.com/content/WACV2021/papers/Pahde_Multimodal_Prototypical_Networks_for_Few-Shot_Learning_WACV_2021_paper.pdf">Multimodal Prototypical Networks for Few-shot Learning</a></div>
-      <div class="author"><strong>Frederik Pahde</strong>, Mihai Puscas, Tassilo Klein, Moin Nabi</div>
-      <div class="periodical"><em>IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2021.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://openaccess.thecvf.com/content/WACV2021/papers/Pahde_Multimodal_Prototypical_Networks_for_Few-Shot_Learning_WACV_2021_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-     
-    <img src="./assets/img/teaser_selfpaced.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-    
-     
-    <abbr class="badge">WACV</abbr>
-    
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8658763">Self Paced Adversarial Training for Multimodal Few-shot Learning</a></div>
-      <div class="author"><strong>Frederik Pahde</strong>, Oleksiy Ostapenko, Patrick Jähnichen, Tassilo Klein, Moin Nabi</div>
-      <div class="periodical"><em>IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2019.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8658763" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-</ol>
-</div>
-
-<!-- ## Services
-
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
-  <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2021</autocolor></a></li>
-  <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Journal Reviewers</h4>
-
-<ul style="margin:0 0 20px;">
-  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
-  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
-</ul> -->
-
-
-      <br>
-
-      
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
-      
-
-      </section>
-      <footer>
-        
-      </footer>
-    </div>
-    <script src="/assets/js/scale.fix.js"></script>
-    
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'G-DB71ZM9XSP', 'auto');
-      ga('send', 'pageview');
+      // Set theme + mark JS-enabled before paint (avoids flash, gates reveal animation)
+      (function () {
+        document.documentElement.classList.add('js');
+        try {
+          var saved = localStorage.getItem('theme');
+          var dark = saved ? saved === 'dark'
+            : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ===== Navbar ===== -->
+    <nav class="nav" id="nav">
+      <div class="container">
+        <a href="#top" class="brand">
+          <span class="mono">FP</span>
+          <span>Frederik Pahde</span>
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-tools">
+          <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+            <i class="fas fa-moon"></i><i class="fas fa-sun"></i>
+          </button>
+          <button class="icon-btn nav-burger" id="navBurger" aria-label="Menu"><i class="fas fa-bars"></i></button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <header class="hero" id="top">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-intro reveal">
+            <h1 class="hero-name">Frederik Pahde</h1>
+            <p class="hero-role">Postdoctoral Researcher</p>
+            <p class="hero-affil">
+              <a href="https://www.hhi.fraunhofer.de/en/departments/ai/research-groups/explainable-artificial-intelligence.html" target="_blank" rel="noopener">Fraunhofer Heinrich Hertz Institute Explainable AI Group</a>
+            </p>
+
+            
+            <p class="hero-tags">Explainable AI  ·  Model Debugging  ·  Spurious Correlations  ·  Medical AI Safety  ·  Concept-based XAI</p>
+            
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#contact"><i class="fas fa-paper-plane"></i> Get in touch</a>
+              <a class="btn" href="assets/files/cv_pahde.pdf" target="_blank"><i class="ai ai-cv"></i> CV</a>
+              <a class="btn" href="https://scholar.google.com/citations?user=wCr3JzIAAAAJ&hl=de" target="_blank"><i class="ai ai-google-scholar"></i> Scholar</a>
+              <a class="btn" href="https://github.com/frederikpahde" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+              <a class="btn" href="https://www.linkedin.com/in/frederik-pahde-176277a7/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+          </div>
+
+          
+          <div class="hero-photo reveal">
+            <img src="./assets/img/pahde.jpg" alt="Dr. Frederik Pahde" />
+          </div>
+          
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== Content sections (from index.md) ===== -->
+    <main id="main" tabindex="-1">
+      <section id="about">
+  <div class="container">
+    <h2 class="section-title">About</h2>
+    <div class="about-prose reveal">
+      <p>
+        I am a postdoctoral researcher in the eXplainable AI (XAI) group at the
+        <a href="https://www.hhi.fraunhofer.de/en/departments/ai/research-groups/explainable-artificial-intelligence.html" target="_blank" rel="noopener">Fraunhofer Heinrich-Hertz Institute</a>
+        in Berlin, led by Dr. Sebastian Lapuschkin and Prof. Wojciech Samek. My research focuses on integrating
+        explainability methods into the AI development life cycle to detect and mitigate spurious model behavior,
+        with the goal of building reliable and trustworthy AI systems for safety-critical applications.
+      </p>
+      <p>
+        I completed my PhD (<em>Dr. rer. nat., summa cum laude</em>) at TU Berlin, with a dissertation on
+        interpretability-driven model debugging within the <em>Reveal2Revise</em> life cycle. Prior to joining
+        Fraunhofer, I worked as an Applied Machine Learning Scientist at Amazon in Edinburgh (2019–2021) and as a
+        Research Associate at SAP AI Research in Berlin (2017–2019).
+      </p>
+      <p>If you are interested in collaborating or have questions, feel free to reach out!</p>
+    </div>
+  </div>
+</section>
+
+<section id="research" class="section-alt">
+  <div class="container">
+    <h2 class="section-title">Research interests</h2>
+    <div class="research-list reveal">
+      <div class="research-item">
+        <i class="fas fa-sync-alt"></i>
+        <h3>XAI Life Cycle</h3>
+        <p>Integrating explainability methods into the AI development cycle for systematic model validation, debugging, and improvement.</p>
+      </div>
+      <div class="research-item">
+        <i class="fas fa-search"></i>
+        <h3>Shortcut Detection &amp; Annotation</h3>
+        <p>Identifying spurious model behavior and automating bias annotation using interpretability tools.</p>
+      </div>
+      <div class="research-item">
+        <i class="fas fa-wrench"></i>
+        <h3>Model Correction</h3>
+        <p>Annotation-efficient unlearning of model shortcuts and spurious correlations in deep neural networks.</p>
+      </div>
+      <div class="research-item">
+        <i class="fas fa-project-diagram"></i>
+        <h3>Concept-based Explainability</h3>
+        <p>Precise modeling of human-interpretable concepts in neural network latent spaces.</p>
+      </div>
+      <div class="research-item">
+        <i class="fas fa-heartbeat"></i>
+        <h3>Medical AI Safety</h3>
+        <p>Applying XAI to build reliable and trustworthy AI for safety-critical medical applications.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="container">
+    <div class="pub-head">
+      <h2 class="section-title">Selected publications</h2>
+      
+      <a class="pub-link" href="https://scholar.google.com/citations?user=wCr3JzIAAAAJ&amp;hl=de" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> View all on Google Scholar</a>
+      
+    </div>
+
+    <ol class="pub-list">
+      
+      <li class="pub reveal">
+        <div class="pub-thumb" aria-hidden="true">
+          <img src="./assets/img/logo_tu.png" alt="" loading="lazy" />
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue-label">Dissertation</p>
+          <h3 class="pub-title"><a href="https://depositonce.tu-berlin.de/bitstreams/55361f93-61f4-4acc-bf2a-1d29b941ee5a/download" target="_blank" rel="noopener">Interpretability-Driven Model Debugging with the Reveal2Revise Life Cycle</a></h3>
+          <p class="pub-authors"><strong>Frederik Pahde</strong></p>
+          <p class="pub-venue">Dissertation, 2025</p>
+          <div class="pub-links">
+            <a class="pub-link" href="https://depositonce.tu-berlin.de/bitstreams/55361f93-61f4-4acc-bf2a-1d29b941ee5a/download" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+            
+            
+            
+            <span class="pub-note">summa cum laude</span>
+            
+          </div>
+        </div>
+      </li>
+      
+      <li class="pub reveal">
+        <div class="pub-thumb" aria-hidden="true">
+          <img src="./assets/img/teaser_disentanglement.png" alt="" loading="lazy" />
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue-label">XAI</p>
+          <h3 class="pub-title"><a href="https://arxiv.org/pdf/2503.05522.pdf" target="_blank" rel="noopener">Post-Hoc Concept Disentanglement: From Correlated to Isolated Concept Representations</a></h3>
+          <p class="pub-authors">Eren Erogullari, Thomas Wiegand, Sebastian Lapuschkin, Wojciech Samek, <strong>Frederik Pahde</strong></p>
+          <p class="pub-venue">World Conference on Explainable Artificial Intelligence, 2025</p>
+          <div class="pub-links">
+            <a class="pub-link" href="https://arxiv.org/pdf/2503.05522.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+            <a class="pub-link" href="https://github.com/erenerogullari/cav-disentanglement" target="_blank" rel="noopener"><i class="fas fa-code"></i> Code</a>
+            
+            
+            
+            
+          </div>
+        </div>
+      </li>
+      
+      <li class="pub reveal">
+        <div class="pub-thumb" aria-hidden="true">
+          <img src="./assets/img/teaser_r2r_journal.png" alt="" loading="lazy" />
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue-label">ML</p>
+          <h3 class="pub-title"><a href="https://link.springer.com/article/10.1007/s10994-025-06834-w" target="_blank" rel="noopener">Ensuring Medical AI Safety: Interpretability-Driven Detection and Mitigation of Spurious Model Behavior and Associated Data</a></h3>
+          <p class="pub-authors"><strong>Frederik Pahde</strong>, Thomas Wiegand, Sebastian Lapuschkin, Wojciech Samek</p>
+          <p class="pub-venue">Machine Learning 114.9 (2025).</p>
+          <div class="pub-links">
+            <a class="pub-link" href="https://link.springer.com/article/10.1007/s10994-025-06834-w" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+            <a class="pub-link" href="https://github.com/frederikpahde/medical-ai-safety" target="_blank" rel="noopener"><i class="fas fa-code"></i> Code</a>
+            
+            
+            
+            
+          </div>
+        </div>
+      </li>
+      
+      <li class="pub reveal">
+        <div class="pub-thumb" aria-hidden="true">
+          <img src="./assets/img/teaser_signal_cav.png" alt="" loading="lazy" />
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue-label">ICLR</p>
+          <h3 class="pub-title"><a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/852870d56e20a22fcd52ea14523fb820-Paper-Conference.pdf" target="_blank" rel="noopener">Navigating Neural Space: Revisiting Concept Activation Vectors to Overcome Directional Divergence</a></h3>
+          <p class="pub-authors"><strong>Frederik Pahde</strong>, Maximilian Dreyer, Leander Weber, Moritz Weckbecker, Christopher J. Anders, Thomas Wiegand, Wojciech Samek, Sebastian Lapuschkin</p>
+          <p class="pub-venue">International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.</p>
+          <div class="pub-links">
+            <a class="pub-link" href="https://proceedings.iclr.cc/paper_files/paper/2025/file/852870d56e20a22fcd52ea14523fb820-Paper-Conference.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+            <a class="pub-link" href="https://github.com/frederikpahde/pattern-cav" target="_blank" rel="noopener"><i class="fas fa-code"></i> Code</a>
+            
+            
+            
+            
+          </div>
+        </div>
+      </li>
+      
+      <li class="pub reveal">
+        <div class="pub-thumb" aria-hidden="true">
+          <img src="./assets/img/RRClarcLinkedIn_reduced.png" alt="" loading="lazy" />
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue-label">AAAI</p>
+          <h3 class="pub-title"><a href="https://arxiv.org/pdf/2308.09437.pdf" target="_blank" rel="noopener">From Hope to Safety: Unlearning Biases of Deep Models via Gradient Penalization in Latent Space</a></h3>
+          <p class="pub-authors">Maximilian Dreyer*, <strong>Frederik Pahde*</strong>, Christopher J. Anders, Wojciech Samek, Sebastian Lapuschkin (*equal contribution)</p>
+          <p class="pub-venue">The 38th Annual AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.</p>
+          <div class="pub-links">
+            <a class="pub-link" href="https://arxiv.org/pdf/2308.09437.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+            <a class="pub-link" href="https://github.com/frederikpahde/rrclarc" target="_blank" rel="noopener"><i class="fas fa-code"></i> Code</a>
+            
+            
+            <span class="pub-note">Oral Presentation</span>
+            
+          </div>
+        </div>
+      </li>
+      
+      <li class="pub reveal">
+        <div class="pub-thumb" aria-hidden="true">
+          <img src="./assets/img/teaser_r2r.png" alt="" loading="lazy" />
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue-label">MICCAI</p>
+          <h3 class="pub-title"><a href="https://arxiv.org/pdf/2303.12641.pdf" target="_blank" rel="noopener">Reveal to Revise: An Explainable AI Life Cycle for Iterative Bias Correction of Deep Models</a></h3>
+          <p class="pub-authors"><strong>Frederik Pahde*</strong>, Maximilian Dreyer*, Wojciech Samek, Sebastian Lapuschkin (*equal contribution)</p>
+          <p class="pub-venue">International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.</p>
+          <div class="pub-links">
+            <a class="pub-link" href="https://arxiv.org/pdf/2303.12641.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+            <a class="pub-link" href="https://github.com/maxdreyer/reveal2revise" target="_blank" rel="noopener"><i class="fas fa-code"></i> Code</a>
+            
+            
+            <span class="pub-note">Early Accept</span>
+            
+          </div>
+        </div>
+      </li>
+      
+      <li class="pub reveal">
+        <div class="pub-thumb" aria-hidden="true">
+          <img src="./assets/img/teaser_canonization.png" alt="" loading="lazy" />
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue-label">CVPRW</p>
+          <h3 class="pub-title"><a href="https://openaccess.thecvf.com/content/CVPR2023W/SAIAD/papers/Pahde_Optimizing_Explanations_by_Network_Canonization_and_Hyperparameter_Search_CVPRW_2023_paper.pdf" target="_blank" rel="noopener">Optimizing Explanations by Network Canonization and Hyperparameter Search</a></h3>
+          <p class="pub-authors"><strong>Frederik Pahde</strong>, Galip Ümit Yolcu, Alexander Binder, Wojciech Samek, Sebastian Lapuschkin</p>
+          <p class="pub-venue">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong> Workshops, 2023.</p>
+          <div class="pub-links">
+            <a class="pub-link" href="https://openaccess.thecvf.com/content/CVPR2023W/SAIAD/papers/Pahde_Optimizing_Explanations_by_Network_Canonization_and_Hyperparameter_Search_CVPRW_2023_paper.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+            
+            
+            
+            
+            
+          </div>
+        </div>
+      </li>
+      
+      <li class="pub reveal">
+        <div class="pub-thumb" aria-hidden="true">
+          <img src="./assets/img/teaser_multimodal.png" alt="" loading="lazy" />
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue-label">WACV</p>
+          <h3 class="pub-title"><a href="https://openaccess.thecvf.com/content/WACV2021/papers/Pahde_Multimodal_Prototypical_Networks_for_Few-Shot_Learning_WACV_2021_paper.pdf" target="_blank" rel="noopener">Multimodal Prototypical Networks for Few-shot Learning</a></h3>
+          <p class="pub-authors"><strong>Frederik Pahde</strong>, Mihai Puscas, Tassilo Klein, Moin Nabi</p>
+          <p class="pub-venue">IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2021.</p>
+          <div class="pub-links">
+            <a class="pub-link" href="https://openaccess.thecvf.com/content/WACV2021/papers/Pahde_Multimodal_Prototypical_Networks_for_Few-Shot_Learning_WACV_2021_paper.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+            
+            
+            
+            
+            
+          </div>
+        </div>
+      </li>
+      
+      <li class="pub reveal">
+        <div class="pub-thumb" aria-hidden="true">
+          <img src="./assets/img/teaser_selfpaced.png" alt="" loading="lazy" />
+        </div>
+        <div class="pub-body">
+          <p class="pub-venue-label">WACV</p>
+          <h3 class="pub-title"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8658763" target="_blank" rel="noopener">Self Paced Adversarial Training for Multimodal Few-shot Learning</a></h3>
+          <p class="pub-authors"><strong>Frederik Pahde</strong>, Oleksiy Ostapenko, Patrick Jähnichen, Tassilo Klein, Moin Nabi</p>
+          <p class="pub-venue">IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2019.</p>
+          <div class="pub-links">
+            <a class="pub-link" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8658763" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+            
+            
+            
+            
+            
+          </div>
+        </div>
+      </li>
+      
+    </ol>
+  </div>
+</section>
+
+<section id="contact" class="section-alt">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-prose reveal">
+      <p>I'm always open to research collaborations, discussions on explainable and trustworthy AI, or questions about my work.</p>
+      <a class="contact-email" href="mailto:frederikpahde@gmail.com"><i class="fas fa-envelope"></i> frederikpahde@gmail.com</a>
+      <div class="social-row">
+        <a href="https://scholar.google.com/citations?user=wCr3JzIAAAAJ&amp;hl=de" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+        <a href="https://github.com/frederikpahde" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/frederik-pahde-176277a7/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        <a href="assets/files/cv_pahde.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae (PDF)" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+      <div class="container">
+        <small>© 2026 Dr. Frederik Pahde. Built with <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>.</small>
+      </div>
+    </footer>
+
+    <script>
+      // Theme toggle
+      var toggle = document.getElementById('themeToggle');
+      toggle && toggle.addEventListener('click', function () {
+        var cur = document.documentElement.getAttribute('data-theme');
+        var next = cur === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+
+      // Navbar shadow on scroll
+      var nav = document.getElementById('nav');
+      var onScroll = function () { nav.classList.toggle('scrolled', window.scrollY > 8); };
+      onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+
+      // Mobile menu
+      var burger = document.getElementById('navBurger');
+      var links = document.getElementById('navLinks');
+      burger && burger.addEventListener('click', function () { links.classList.toggle('open'); });
+      links && links.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A') links.classList.remove('open');
+      });
+
+      // Active section highlighting
+      var navMap = {};
+      document.querySelectorAll('.nav-links a').forEach(function (a) {
+        navMap[a.getAttribute('href').slice(1)] = a;
+      });
+      var secObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) {
+            Object.values(navMap).forEach(function (a) { a.classList.remove('active'); });
+            var link = navMap[en.target.id];
+            if (link) link.classList.add('active');
+          }
+        });
+      }, { rootMargin: '-45% 0px -50% 0px' });
+      document.querySelectorAll('section[id]').forEach(function (s) { secObserver.observe(s); });
+
+      // Reveal on scroll
+      var reveals = document.querySelectorAll('.reveal');
+      var revObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { en.target.classList.add('in'); revObserver.unobserve(en.target); }
+        });
+      }, { threshold: 0.12 });
+      reveals.forEach(function (el) { revObserver.observe(el); });
+      // Safety net: never leave anything hidden if the observer misses it
+      setTimeout(function () { reveals.forEach(function (el) { el.classList.add('in'); }); }, 2500);
+    </script>
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DB71ZM9XSP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DB71ZM9XSP');
     </script>
     
   </body>

@@ -9,11 +9,21 @@ tagline: "XAI · Model Debugging · Medical AI Safety"
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: XAI explainable AI Frederik Pahde
-description: Frederik Pahde
+keywords: XAI explainable AI Frederik Pahde model debugging spurious correlations trustworthy AI medical AI safety
+description: "Frederik Pahde is a postdoctoral researcher in Explainable AI (XAI) at the Fraunhofer Heinrich-Hertz Institute in Berlin, working on interpretability-driven model debugging, spurious correlation detection, and trustworthy AI for safety-critical and medical applications."
 canonical: https://frederikpahde.github.io
 
-# Links 
+affiliation_link: https://www.hhi.fraunhofer.de/en/departments/ai/research-groups/explainable-artificial-intelligence.html
+
+# Keyword chips shown in the hero section
+hero_tags:
+  - Explainable AI
+  - Model Debugging
+  - Spurious Correlations
+  - Medical AI Safety
+  - Concept-based XAI
+
+# Links
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=wCr3JzIAAAAJ&hl=de
 cv_link: assets/files/cv_pahde.pdf
