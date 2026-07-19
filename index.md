@@ -49,6 +49,11 @@ layout: homepage
         <p>Precise modeling of human-interpretable concepts in neural network latent spaces.</p>
       </div>
       <div class="research-item">
+        <i class="fas fa-lightbulb"></i>
+        <h3>Concept Discovery</h3>
+        <p>Unsupervised discovery of human-interpretable concepts learned within internal model representations.</p>
+      </div>
+      <div class="research-item">
         <i class="fas fa-heartbeat"></i>
         <h3>Medical AI Safety</h3>
         <p>Applying XAI to build reliable and trustworthy AI for safety-critical medical applications.</p>

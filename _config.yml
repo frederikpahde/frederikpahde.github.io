@@ -34,8 +34,8 @@ linkedin: https://www.linkedin.com/in/frederik-pahde-176277a7/
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/pahde.jpg
-favicon: ./assets/img/favicon-32x32.png
-favicon_dark: ./assets/img/favicon-32x32.png
+favicon: ./assets/img/favicon1.svg
+favicon_dark: ./assets/img/favicon1.svg
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
